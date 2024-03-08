@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9029D6E42B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D6E32B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift */; };
+		9029D6E62B9BAEEF003B896E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D6E52B9BAEEF003B896E /* ContentView.swift */; };
+		9029D6E82B9BAEF0003B896E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9029D6E72B9BAEF0003B896E /* Assets.xcassets */; };
+		9029D6EC2B9BAEF0003B896E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9029D6EB2B9BAEF0003B896E /* Preview Assets.xcassets */; };
+		9029D6F62B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D6F52B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift */; };
+		9029D7002B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D6FF2B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift */; };
+		9029D7022B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D7012B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9029D6F22B9BAEF0003B896E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9029D6D82B9BAEEF003B896E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9029D6DF2B9BAEEF003B896E;
+			remoteInfo = "Homework 5 1D Schrodinger Equation Calculator";
+		};
+		9029D6FC2B9BAEF0003B896E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9029D6D82B9BAEEF003B896E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9029D6DF2B9BAEEF003B896E;
+			remoteInfo = "Homework 5 1D Schrodinger Equation Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9029D6E02B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 5 1D Schrodinger Equation Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9029D6E32B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift; sourceTree = "<group>"; };
+		9029D6E52B9BAEEF003B896E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9029D6E72B9BAEF0003B896E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9029D6E92B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_Calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Homework_5_1D_Schrodinger_Equation_Calculator.entitlements; sourceTree = "<group>"; };
+		9029D6EB2B9BAEF0003B896E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9029D6F12B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 5 1D Schrodinger Equation CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9029D6F52B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift; sourceTree = "<group>"; };
+		9029D6FB2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 5 1D Schrodinger Equation CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9029D6FF2B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift; sourceTree = "<group>"; };
+		9029D7012B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9029D6DD2B9BAEEF003B896E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9029D6EE2B9BAEF0003B896E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9029D6F82B9BAEF0003B896E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9029D6D72B9BAEEF003B896E = {
+			isa = PBXGroup;
+			children = (
+				9029D6E22B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator */,
+				9029D6F42B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorTests */,
+				9029D6FE2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests */,
+				9029D6E12B9BAEEF003B896E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9029D6E12B9BAEEF003B896E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9029D6E02B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator.app */,
+				9029D6F12B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorTests.xctest */,
+				9029D6FB2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9029D6E22B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				9029D6E32B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift */,
+				9029D6E52B9BAEEF003B896E /* ContentView.swift */,
+				9029D6E72B9BAEF0003B896E /* Assets.xcassets */,
+				9029D6E92B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_Calculator.entitlements */,
+				9029D6EA2B9BAEF0003B896E /* Preview Content */,
+			);
+			path = "Homework 5 1D Schrodinger Equation Calculator";
+			sourceTree = "<group>";
+		};
+		9029D6EA2B9BAEF0003B896E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9029D6EB2B9BAEF0003B896E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9029D6F42B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9029D6F52B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift */,
+			);
+			path = "Homework 5 1D Schrodinger Equation CalculatorTests";
+			sourceTree = "<group>";
+		};
+		9029D6FE2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9029D6FF2B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift */,
+				9029D7012B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = "Homework 5 1D Schrodinger Equation CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9029D6DF2B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9029D7052B9BAEF0003B896E /* Build configuration list for PBXNativeTarget "Homework 5 1D Schrodinger Equation Calculator" */;
+			buildPhases = (
+				9029D6DC2B9BAEEF003B896E /* Sources */,
+				9029D6DD2B9BAEEF003B896E /* Frameworks */,
+				9029D6DE2B9BAEEF003B896E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homework 5 1D Schrodinger Equation Calculator";
+			productName = "Homework 5 1D Schrodinger Equation Calculator";
+			productReference = 9029D6E02B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9029D6F02B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9029D7082B9BAEF0003B896E /* Build configuration list for PBXNativeTarget "Homework 5 1D Schrodinger Equation CalculatorTests" */;
+			buildPhases = (
+				9029D6ED2B9BAEF0003B896E /* Sources */,
+				9029D6EE2B9BAEF0003B896E /* Frameworks */,
+				9029D6EF2B9BAEF0003B896E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9029D6F32B9BAEF0003B896E /* PBXTargetDependency */,
+			);
+			name = "Homework 5 1D Schrodinger Equation CalculatorTests";
+			productName = "Homework 5 1D Schrodinger Equation CalculatorTests";
+			productReference = 9029D6F12B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9029D6FA2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9029D70B2B9BAEF0003B896E /* Build configuration list for PBXNativeTarget "Homework 5 1D Schrodinger Equation CalculatorUITests" */;
+			buildPhases = (
+				9029D6F72B9BAEF0003B896E /* Sources */,
+				9029D6F82B9BAEF0003B896E /* Frameworks */,
+				9029D6F92B9BAEF0003B896E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9029D6FD2B9BAEF0003B896E /* PBXTargetDependency */,
+			);
+			name = "Homework 5 1D Schrodinger Equation CalculatorUITests";
+			productName = "Homework 5 1D Schrodinger Equation CalculatorUITests";
+			productReference = 9029D6FB2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9029D6D82B9BAEEF003B896E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9029D6DF2B9BAEEF003B896E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9029D6F02B9BAEF0003B896E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9029D6DF2B9BAEEF003B896E;
+					};
+					9029D6FA2B9BAEF0003B896E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9029D6DF2B9BAEEF003B896E;
+					};
+				};
+			};
+			buildConfigurationList = 9029D6DB2B9BAEEF003B896E /* Build configuration list for PBXProject "Homework 5 1D Schrodinger Equation Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9029D6D72B9BAEEF003B896E;
+			productRefGroup = 9029D6E12B9BAEEF003B896E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9029D6DF2B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator */,
+				9029D6F02B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorTests */,
+				9029D6FA2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9029D6DE2B9BAEEF003B896E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9029D6EC2B9BAEF0003B896E /* Preview Assets.xcassets in Resources */,
+				9029D6E82B9BAEF0003B896E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9029D6EF2B9BAEF0003B896E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9029D6F92B9BAEF0003B896E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9029D6DC2B9BAEEF003B896E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9029D6E62B9BAEEF003B896E /* ContentView.swift in Sources */,
+				9029D6E42B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9029D6ED2B9BAEF0003B896E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9029D6F62B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9029D6F72B9BAEF0003B896E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9029D7022B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift in Sources */,
+				9029D7002B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9029D6F32B9BAEF0003B896E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9029D6DF2B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator */;
+			targetProxy = 9029D6F22B9BAEF0003B896E /* PBXContainerItemProxy */;
+		};
+		9029D6FD2B9BAEF0003B896E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9029D6DF2B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator */;
+			targetProxy = 9029D6FC2B9BAEF0003B896E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9029D7032B9BAEF0003B896E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9029D7042B9BAEF0003B896E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9029D7062B9BAEF0003B896E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Homework 5 1D Schrodinger Equation Calculator/Homework_5_1D_Schrodinger_Equation_Calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homework 5 1D Schrodinger Equation Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Homework-5-1D-Schrodinger-Equation-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9029D7072B9BAEF0003B896E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Homework 5 1D Schrodinger Equation Calculator/Homework_5_1D_Schrodinger_Equation_Calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homework 5 1D Schrodinger Equation Calculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Homework-5-1D-Schrodinger-Equation-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9029D7092B9BAEF0003B896E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Homework-5-1D-Schrodinger-Equation-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework 5 1D Schrodinger Equation Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Homework 5 1D Schrodinger Equation Calculator";
+			};
+			name = Debug;
+		};
+		9029D70A2B9BAEF0003B896E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Homework-5-1D-Schrodinger-Equation-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework 5 1D Schrodinger Equation Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Homework 5 1D Schrodinger Equation Calculator";
+			};
+			name = Release;
+		};
+		9029D70C2B9BAEF0003B896E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Homework-5-1D-Schrodinger-Equation-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homework 5 1D Schrodinger Equation Calculator";
+			};
+			name = Debug;
+		};
+		9029D70D2B9BAEF0003B896E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iitmg.Homework-5-1D-Schrodinger-Equation-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homework 5 1D Schrodinger Equation Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9029D6DB2B9BAEEF003B896E /* Build configuration list for PBXProject "Homework 5 1D Schrodinger Equation Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9029D7032B9BAEF0003B896E /* Debug */,
+				9029D7042B9BAEF0003B896E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9029D7052B9BAEF0003B896E /* Build configuration list for PBXNativeTarget "Homework 5 1D Schrodinger Equation Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9029D7062B9BAEF0003B896E /* Debug */,
+				9029D7072B9BAEF0003B896E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9029D7082B9BAEF0003B896E /* Build configuration list for PBXNativeTarget "Homework 5 1D Schrodinger Equation CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9029D7092B9BAEF0003B896E /* Debug */,
+				9029D70A2B9BAEF0003B896E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9029D70B2B9BAEF0003B896E /* Build configuration list for PBXNativeTarget "Homework 5 1D Schrodinger Equation CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9029D70C2B9BAEF0003B896E /* Debug */,
+				9029D70D2B9BAEF0003B896E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9029D6D82B9BAEEF003B896E /* Project object */;
+}
