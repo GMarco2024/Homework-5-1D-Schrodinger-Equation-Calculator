@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		330B10222BACA4500051A4E0 /* Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B10212BACA4500051A4E0 /* Potentials.swift */; };
-		330B10242BACA7160051A4E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B10232BACA7160051A4E0 /* main.swift */; };
 		330B10262BACA72C0051A4E0 /* RungeKutta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B10252BACA72C0051A4E0 /* RungeKutta.swift */; };
 		330B10282BACDAE90051A4E0 /* 1DSchrodingerEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330B10272BACDAE90051A4E0 /* 1DSchrodingerEquation.swift */; };
 		9029D6E42B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D6E32B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift */; };
@@ -18,6 +17,7 @@
 		9029D6F62B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D6F52B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorTests.swift */; };
 		9029D7002B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D6FF2B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift */; };
 		9029D7022B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029D7012B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift */; };
+		904AC8312BADF63800E995F4 /* SchrodingerEquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904AC8302BADF63800E995F4 /* SchrodingerEquationSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		330B10212BACA4500051A4E0 /* Potentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potentials.swift; sourceTree = "<group>"; };
-		330B10232BACA7160051A4E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		330B10252BACA72C0051A4E0 /* RungeKutta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RungeKutta.swift; sourceTree = "<group>"; };
 		330B10272BACDAE90051A4E0 /* 1DSchrodingerEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1DSchrodingerEquation.swift; sourceTree = "<group>"; };
 		9029D6E02B9BAEEF003B896E /* Homework 5 1D Schrodinger Equation Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 5 1D Schrodinger Equation Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		9029D6FB2B9BAEF0003B896E /* Homework 5 1D Schrodinger Equation CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 5 1D Schrodinger Equation CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9029D6FF2B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5_1D_Schrodinger_Equation_CalculatorUITests.swift; sourceTree = "<group>"; };
 		9029D7012B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5_1D_Schrodinger_Equation_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		904AC8302BADF63800E995F4 /* SchrodingerEquationSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerEquationSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,10 @@
 			children = (
 				9029D6E32B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift */,
 				9029D6E52B9BAEEF003B896E /* ContentView.swift */,
-				330B10232BACA7160051A4E0 /* main.swift */,
 				330B10252BACA72C0051A4E0 /* RungeKutta.swift */,
 				330B10212BACA4500051A4E0 /* Potentials.swift */,
 				330B10272BACDAE90051A4E0 /* 1DSchrodingerEquation.swift */,
+				904AC8302BADF63800E995F4 /* SchrodingerEquationSolver.swift */,
 				9029D6E72B9BAEF0003B896E /* Assets.xcassets */,
 				9029D6E92B9BAEF0003B896E /* Homework_5_1D_Schrodinger_Equation_Calculator.entitlements */,
 				9029D6EA2B9BAEF0003B896E /* Preview Content */,
@@ -273,10 +273,10 @@
 			files = (
 				9029D6E62B9BAEEF003B896E /* ContentView.swift in Sources */,
 				9029D6E42B9BAEEF003B896E /* Homework_5_1D_Schrodinger_Equation_CalculatorApp.swift in Sources */,
-				330B10242BACA7160051A4E0 /* main.swift in Sources */,
 				330B10222BACA4500051A4E0 /* Potentials.swift in Sources */,
 				330B10262BACA72C0051A4E0 /* RungeKutta.swift in Sources */,
 				330B10282BACDAE90051A4E0 /* 1DSchrodingerEquation.swift in Sources */,
+				904AC8312BADF63800E995F4 /* SchrodingerEquationSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
