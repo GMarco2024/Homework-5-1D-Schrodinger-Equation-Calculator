@@ -8,11 +8,9 @@
 import Foundation
 
 // Defines a structure to represent a potential energy function in a quantum system.
-
 struct Potential {
     
     // Holds a function that calculates the potential energy at a given position (x).
-    
     var function: (Double) -> Double
 }
 
