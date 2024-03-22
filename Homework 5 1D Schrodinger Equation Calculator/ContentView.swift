@@ -48,14 +48,11 @@ struct ContentView: View {
                    
             }
 
-            // Solve button
             Button("Solve") {
                 solveSchrodingerEquation()
             }
             .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
+            
 
             ScrollView {
                 VStack(alignment: .leading) {
@@ -70,20 +67,20 @@ struct ContentView: View {
     
     // Method to solve the Schrodinger Equation
     func solveSchrodingerEquation() {
-        // Validate and convert inputs
         guard let energy = Double(energyInput),
               let bc1 = Double(boundaryCondition1),
               let bc2 = Double(boundaryCondition2),
               let maxIterations = Int(maxIterationsInput) else {
-            // Handling invalid input
             print("Invalid input")
             return
         }
 
         // Define the potential function
         let potential = Potential(function: { x in x * x })
+        
         // Initializes the Schrodinger equation solver with the potential and dx
         let schrodingerSolver = SchrodingerEquationSolver(potential: potential, dx: 0.01)
+        
         // Initializes the Runge-Kutta solver
         let rungeKuttaSolver = RungeKutta()
 
