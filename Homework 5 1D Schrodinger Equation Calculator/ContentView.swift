@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
+//  RungeKutta.swift
 //  Homework 5 1D Schrodinger Equation Calculator
 //
-//  Created by PHYS 440 Marco on 3/8/24.
+//  Created by Marco Gonzalez on 3/21/24.
 //
 
 import SwiftUI
@@ -13,17 +13,28 @@ struct ContentView: View {
     @State private var boundaryCondition2: String = "0.0"
     @State private var maxIterationsInput: String = "1000"
     @State private var psiSolutions: [Double] = []
+    @State private var selectedPotential: String = "Square Well" // Default selection
 
+    // Potentials from Professor Terry's Potentials.swift
+    
+    let potentialTypes = ["Square Well", "Linear Well", "Parabolic Well", "Square + Linear Well", "Square Barrier", "Triangle Barrier", "Coupled Parabolic Well", "Coupled Square Well + Field", "Harmonic Oscillator", "Kronig - Penney", "Variable Kronig - Penney", "KP2-a"]
+    
     var body: some View {
         VStack {
-      
+            // Picker for selecting potential types
+            Picker("Potential Type:", selection: $selectedPotential) {
+                ForEach(potentialTypes, id: \.self) { potentialType in
+                    Text(potentialType).tag(potentialType)
+                }
+            }
+            .pickerStyle(MenuPickerStyle())
+            
             HStack {
                 Text("Energy:")
                 TextField("Enter energy", text: $energyInput)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     
             }
-
         
             HStack {
                 Text("Boundary Condition 1:")
@@ -31,7 +42,6 @@ struct ContentView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                
             }
-
    
             HStack {
                 Text("Boundary Condition 2:")
@@ -75,13 +85,27 @@ struct ContentView: View {
             return
         }
 
-        // Define the potential function
-        let potential = Potential(function: { x in x * x })
+        // This defines the potential function based on the selected Potential
+        // This is a simplified example. Unfinished....
+        let potential = Potential(function: { x in
+            // Example potential function; replace with your own logic
+            switch selectedPotential {
+            case "Square Well":
+                return 0
+           
+                
+                //We need to add cases to the rest of the listed potentials
+                
+                
+            default:
+                return x - x
+            }
+        })
         
-        // Initializes the Schrodinger equation solver with the potential and dx
+        // This initializes the Schrodinger equation solver with the potential and dx
         let schrodingerSolver = SchrodingerEquationSolver(potential: potential, dx: 0.01)
         
-        // Initializes the Runge-Kutta solver
+        // This initializes the Runge-Kutta solver
         let rungeKuttaSolver = RungeKutta()
 
         // Solves the equation and update psiSolutions
