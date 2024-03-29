@@ -48,7 +48,7 @@ class SchrodingerEquationSolver {
         
         let energy = 1.0
         
-        // Return the rate of change of ψ using the differential equation derived from the Schrödinger equation.
+        // Returns the rate of change of ψ using the differential equation derived from the Schrödinger equation.
         return (2.0 * mass / (hbar * hbar)) * (V - energy) * psi
     }
     
