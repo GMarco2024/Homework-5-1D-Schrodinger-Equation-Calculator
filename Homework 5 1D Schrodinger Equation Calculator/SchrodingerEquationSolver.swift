@@ -24,3 +24,4 @@ let boundaryConditions: [Double] = [0, 10]
 let maxIterations = 1000
 
 let psiSolutions = schrodingerSolver.solve(energy: energy, boundaryConditions: boundaryConditions, maxIterations: maxIterations, rungeKutta: rungeKuttaSolver)
+
